@@ -1,0 +1,9 @@
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\bin\Debug\netstandard2.0\RESTFulSocial.Core.deps.json
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\bin\Debug\netstandard2.0\RESTFulSocial.Core.dll
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\bin\Debug\netstandard2.0\RESTFulSocial.Core.pdb
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.csprojAssemblyReference.cache
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.AssemblyInfoInputs.cache
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.AssemblyInfo.cs
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.dll
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.pdb
+C:\Users\Gary\Documents\Backend\RESTFul API with .NET Core 3.1\RESTFulSocial\RESTFulSocial.Core\obj\Debug\netstandard2.0\RESTFulSocial.Core.csproj.CoreCompileInputs.cache

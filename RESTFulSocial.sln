@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTFulSocial.Api", "RESTFulSocial.Api\RESTFulSocial.Api.csproj", "{F3E9FB93-2F60-4AE3-A75D-42894AF5AA3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTFulSocial.Core", "RESTFulSocial.Core\RESTFulSocial.Core.csproj", "{246DD540-983C-459D-BCD6-87A8D18599A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RESTFulSocial.Infrastructure", "RESTFulSocial.Infrastructure\RESTFulSocial.Infrastructure.csproj", "{86F7BE3F-02DB-4C4A-A938-42C064F4EF26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{4326641B-9B15-424A-A7F0-97B93E38EF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFulSocial.UnitTest", "RESTFulSocial.UnitTest\RESTFulSocial.UnitTest.csproj", "{B18A4E6E-0002-4875-B7DE-FD7EF38AF639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTFulSocial.IntegrationTest", "RESTFulSocial.IntegrationTest\RESTFulSocial.IntegrationTest.csproj", "{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E9FB93-2F60-4AE3-A75D-42894AF5AA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E9FB93-2F60-4AE3-A75D-42894AF5AA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E9FB93-2F60-4AE3-A75D-42894AF5AA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E9FB93-2F60-4AE3-A75D-42894AF5AA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{246DD540-983C-459D-BCD6-87A8D18599A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{246DD540-983C-459D-BCD6-87A8D18599A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{246DD540-983C-459D-BCD6-87A8D18599A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{246DD540-983C-459D-BCD6-87A8D18599A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F7BE3F-02DB-4C4A-A938-42C064F4EF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F7BE3F-02DB-4C4A-A938-42C064F4EF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F7BE3F-02DB-4C4A-A938-42C064F4EF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F7BE3F-02DB-4C4A-A938-42C064F4EF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18A4E6E-0002-4875-B7DE-FD7EF38AF639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18A4E6E-0002-4875-B7DE-FD7EF38AF639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18A4E6E-0002-4875-B7DE-FD7EF38AF639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18A4E6E-0002-4875-B7DE-FD7EF38AF639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B18A4E6E-0002-4875-B7DE-FD7EF38AF639} = {4326641B-9B15-424A-A7F0-97B93E38EF8F}
+		{24CB2B79-EFF1-49CD-BF2F-2271DA9EE71A} = {4326641B-9B15-424A-A7F0-97B93E38EF8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {393FB570-BA88-430C-8183-D94613DAB97C}
+	EndGlobalSection
+EndGlobal
