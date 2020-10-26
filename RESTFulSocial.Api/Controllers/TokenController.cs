@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using RESTFulSocial.Core.Entities;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace RESTFulSocial.Api.Controllers
 {
@@ -27,6 +23,7 @@ namespace RESTFulSocial.Api.Controllers
         [HttpPost]
         public IActionResult Authentication(UserLogin login)
         {
+            // si es un usuario valido
             if (IsValidUser(login))
             {
                 var token = GenerateToken();
@@ -47,7 +44,8 @@ namespace RESTFulSocial.Api.Controllers
             var signingCredentials = new SigningCredentials(symmetricSecurityKey, SecurityAlgorithms.HmacSha256);
             var header = new JwtHeader(signingCredentials);
 
-            //Claims
+            // Claims: es informacion que nosotros quremos validar, o queremos agregarle
+            // en el cuerpo del mensaje las caracteristicas del usuario que estamos generando.
             var claims = new[] 
             { 
                 new Claim(ClaimTypes.Name, "Adrian Garay"),

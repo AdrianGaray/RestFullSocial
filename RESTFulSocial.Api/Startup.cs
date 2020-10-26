@@ -93,6 +93,7 @@ namespace RESTFulSocial.Api
             {
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
+                    // valida el emisor
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     // Valida el tiempo del token. Aceptar los tokens que no se hayan vencido
